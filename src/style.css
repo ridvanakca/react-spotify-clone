@@ -527,12 +527,28 @@ html, body, #root {
   height: 2rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[3\.7\] {
+  height: 3.7;
+}
+
+.h-\[3\.75rem\] {
+  height: 3.75rem;
+}
+
 .w-60 {
   width: 15rem;
 }
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .flex-auto {
@@ -555,9 +571,18 @@ html, body, #root {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-x-4 {
   -webkit-column-gap: 1rem;
           column-gap: 1rem;
+}
+
+.gap-x-2 {
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
 }
 
 .overflow-auto {
@@ -570,6 +595,10 @@ html, body, #root {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-t {
@@ -613,6 +642,10 @@ html, body, #root {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-opacity-70 {
+  --tw-bg-opacity: 0.7;
+}
+
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -644,6 +677,11 @@ html, body, #root {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pt-6 {
