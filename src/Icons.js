@@ -28,12 +28,33 @@ const CollectionIcon = ({size}) => {
 	)
 }
 
+const PlusIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path d="M14 7H9V2H7v5H2v2h5v5h2V9h5z" fill="currentColor"/>
+			<path fill="none" d="M0 0h16v16H0z"/>
+		</svg>
+	)
+}
+
+const HeartFilledIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path fill="none" d="M0 0h16v16H0z"/>
+			<path fill="currentColor"
+			      d="M13.797 2.727a4.057 4.057 0 00-5.488-.253.558.558 0 01-.31.112.531.531 0 01-.311-.112 4.054 4.054 0 00-5.487.253c-.77.77-1.194 1.794-1.194 2.883s.424 2.113 1.168 2.855l4.462 5.223a1.791 1.791 0 002.726 0l4.435-5.195a4.052 4.052 0 001.195-2.883 4.057 4.057 0 00-1.196-2.883z"/>
+		</svg>
+	)
+}
+
 const Icon = ({ name, size = 24}) => {
 
     const icons = {
         home: HomeIcon,
         search: SearchIcon,
-        collection: CollectionIcon
+        collection: CollectionIcon,
+		plus: PlusIcon,
+		heartFilled: HeartFilledIcon
     }
 
     const Component = icons[name];
