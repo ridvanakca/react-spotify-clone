@@ -638,6 +638,14 @@ html, body, #root {
   width: 0.75rem;
 }
 
+.w-\[5\.\] {
+  width: 5.;
+}
+
+.w-\[5\.813rem\] {
+  width: 5.813rem;
+}
+
 .min-w-\[\] {
   min-width: ;
 }
@@ -652,6 +660,10 @@ html, body, #root {
 
 .max-w-\[45\.125rem\] {
   max-width: 45.125rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-auto {
